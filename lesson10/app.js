@@ -246,7 +246,7 @@ function endGame(){
 
 //define collectDiamond
 function collectDiamond(player,diamond){
-  score += 10;
+  score += 100;
   scoretext.setText(score);
   diamond.kill();
 
